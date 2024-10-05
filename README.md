@@ -48,12 +48,6 @@ Com o aplicativo, é possível:
 3. Compile e execute o projeto:
     - Selecione um simulador ou dispositivo físico e clique em "Run".
 
-## Gerenciamento de Tarefas
-
-Para organizar e dividir as tarefas durante o desenvolvimento deste projeto, utilizei o Trello para separa tarefas.
-
-<img width="864" alt="trello" src="https://github.com/user-attachments/assets/1f765f4c-e72e-455c-acf2-afc3cfc7f616">
-
 ## Observações
 
 É necessário o uso do iOS 17 ou superior para rodar este projeto, devido a propriedades que são fornecidas a partir do iOS 17, como a função `.scrollTargetLayout()`, que permite um layout mais flexível e adaptável durante o scroll de listas e conteúdos.
