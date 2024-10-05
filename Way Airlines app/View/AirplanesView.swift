@@ -29,7 +29,7 @@ struct AirplanesView: View {
                             
                             ScrollView(.horizontal) {
                                 HStack(spacing: 5 ){
-                                    ForEach(airportsCard) { airport in
+                                    ForEach(airportsCards) { airport in
                                         GeometryReader(content: { proxy in
                                             let cardSize = proxy.size
                                             let minX = min((proxy.frame(in: .scrollView).minX * 1.4), proxy.size.width * 1.4  )

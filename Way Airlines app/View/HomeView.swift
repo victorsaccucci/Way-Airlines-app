@@ -140,7 +140,7 @@ struct HomeView: View {
                             }
                         } else {
                             // Exibir mensagem caso a lista não possua dados
-                            Text("No flights available")
+                            Text("Voos não encontrados.")
                                 .font(.headline)
                                 .foregroundColor(.black)
                         }

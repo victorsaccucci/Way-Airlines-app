@@ -2,23 +2,20 @@ import Foundation
 
 class FlightViewModel: ObservableObject {
     
-    //Objeto contendo a lista de voos
     @Published var flightData: FlightData?
-
-    //Decodificar JSON de voos
+    
+    private let flightService = FlightService()
+    
     func loadFlights() {
-        guard let jsonData = JsonData.mockedFlights.data(using: .utf8) else {
-            print("Error, could not convert mockedFlights to Data")
-            return
-        }
-
-        let decoder = JSONDecoder()
-
-        do {
-            let data = try decoder.decode(FlightData.self, from: jsonData)
-            self.flightData = data
-        } catch {
-            print("Error decoding flights JSON: \(error)")
+        flightService.getFlights { [weak self] result in
+            DispatchQueue.main.async {
+                switch result {
+                case .success(let flights):
+                    self?.flightData = FlightData(flights: flights)
+                case .failure(let error):
+                    print("Erro ao carregar voos: \(error.localizedDescription)")
+                }
+            }
         }
     }
 }

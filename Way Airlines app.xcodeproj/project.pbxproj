@@ -22,6 +22,7 @@
 		F0F84CA12CB195EF00E82C66 /* FirstInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F84CA02CB195EF00E82C66 /* FirstInfoView.swift */; };
 		F0F84CA32CB195FB00E82C66 /* SecondInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F84CA22CB195FB00E82C66 /* SecondInfoView.swift */; };
 		F0F84CA52CB1969700E82C66 /* ManagerInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F84CA42CB1969700E82C66 /* ManagerInfoView.swift */; };
+		F0F84CA82CB1BCBA00E82C66 /* FlightService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F84CA72CB1BCBA00E82C66 /* FlightService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		F0F84CA02CB195EF00E82C66 /* FirstInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstInfoView.swift; sourceTree = "<group>"; };
 		F0F84CA22CB195FB00E82C66 /* SecondInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondInfoView.swift; sourceTree = "<group>"; };
 		F0F84CA42CB1969700E82C66 /* ManagerInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerInfoView.swift; sourceTree = "<group>"; };
+		F0F84CA72CB1BCBA00E82C66 /* FlightService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 		F0F84C7B2CB090D100E82C66 /* Way Airlines app */ = {
 			isa = PBXGroup;
 			children = (
+				F0F84CA62CB1BCAB00E82C66 /* Service */,
 				F0F84C8C2CB0923300E82C66 /* ViewModel */,
 				F0F84C8B2CB0922A00E82C66 /* View */,
 				F0F84C8A2CB0922300E82C66 /* Model */,
@@ -122,6 +125,14 @@
 				F0F84C932CB098F900E82C66 /* FlightViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F0F84CA62CB1BCAB00E82C66 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F0F84CA72CB1BCBA00E82C66 /* FlightService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +218,7 @@
 				F0F84CA12CB195EF00E82C66 /* FirstInfoView.swift in Sources */,
 				F0F84C7D2CB090D100E82C66 /* Way_Airlines_appApp.swift in Sources */,
 				F0F84C9E2CB193FE00E82C66 /* SettingsView.swift in Sources */,
+				F0F84CA82CB1BCBA00E82C66 /* FlightService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +360,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -377,6 +390,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

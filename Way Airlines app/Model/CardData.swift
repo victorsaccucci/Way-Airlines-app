@@ -17,7 +17,7 @@ var airplanesCards: [CardObject] = [
 ]
 
 //Representação dos aeroports no carrossel
-var airportsCard: [CardObject] = [
+var airportsCards: [CardObject] = [
     .init(title: "JFK - John F. Kennedy International Airport", image: "airportJFK"),
     .init(title: "LAX - Los Angeles International Airport", image: "airportLAX"),
     .init(title: "ORD - O'Hare International Airport", image: "airportORD"),
