@@ -56,7 +56,7 @@ struct HomeView: View {
                                             .font(.system(size: 14))
                                             .foregroundColor(.black)
                                     }
-                              
+                                    
                                     Spacer()
                                     HStack {
                                         
@@ -70,7 +70,7 @@ struct HomeView: View {
                                     }
                                     .padding()
                                     .background(Color.gray.opacity(0.4))
-                                    .cornerRadius(40)
+                                    .clipShape(Capsule())
                                 }
                             }
                         }
@@ -99,7 +99,7 @@ struct HomeView: View {
                                 VStack(alignment: .leading, spacing: 6) {
                                     
                                     HStack {
-                                        Text("Status: \(flight.status)")
+                                        Text("\(flight.status)")
                                             .font(.system(size: 15))
                                             .fontWeight(.bold)
                                             .foregroundColor(flight.status == "CANCELADO" ? .orange : .green)
@@ -109,7 +109,7 @@ struct HomeView: View {
                                             .fontWeight(.bold)
                                             .foregroundColor(flight.status == "CANCELADO" ? .orange : .green)
                                     }
-
+                                    
                                     
                                     Text("Data: \(flight.start_date)")
                                         .fontWeight(.semibold)
@@ -134,7 +134,7 @@ struct HomeView: View {
                                     )
                                 )
                                 .cornerRadius(8)
-                                .shadow(color: Color.black.opacity(0.1), radius: 4, x: 0, y: 2)
+                                .shadow(color: Color.black.opacity(0.5), radius: 4, x: 0, y: 2)
                                 .frame(height: 200)
                                 .padding(.horizontal)
                             }
@@ -149,11 +149,9 @@ struct HomeView: View {
                 }
                 .scrollIndicators(.hidden)
             }
-            // Título da tela
             .navigationTitle("Consulta de voos")
             .navigationBarTitleDisplayMode(.inline)
             .onAppear {
-                // Carregar dados ao entrar na Home
                 flightViewModel.loadFlights()
             }
         }
@@ -172,7 +170,7 @@ struct HomeView: View {
     // Filtra os voos com base na opção selecionada
     private func filterFlights(flights: [Flight]) -> [Flight] {
         
-        //Gostaria de deixar claro que os últimos 3 dados do JSON de voos tiveram
+        //Os últimos 3 dados do JSON de voos tiveram
         //a data de inicio (start_date) alteradas para o mês de dezembro para simular
         //voos que ainda vão acontecer.
         

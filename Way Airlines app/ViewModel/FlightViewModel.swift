@@ -2,6 +2,7 @@ import Foundation
 
 class FlightViewModel: ObservableObject {
     
+    //Objeto contendo a lista de voos
     @Published var flightData: FlightData?
 
     //Decodificar JSON de voos

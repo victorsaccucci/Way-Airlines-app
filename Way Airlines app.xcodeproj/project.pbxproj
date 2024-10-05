@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F0F84C7D2CB090D100E82C66 /* Way_Airlines_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F84C7C2CB090D100E82C66 /* Way_Airlines_appApp.swift */; };
-		F0F84C7F2CB090D100E82C66 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F84C7E2CB090D100E82C66 /* ContentView.swift */; };
 		F0F84C812CB090D300E82C66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0F84C802CB090D300E82C66 /* Assets.xcassets */; };
 		F0F84C842CB090D300E82C66 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0F84C832CB090D300E82C66 /* Preview Assets.xcassets */; };
 		F0F84C8E2CB0927600E82C66 /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F84C8D2CB0927600E82C66 /* Flight.swift */; };
@@ -18,12 +17,16 @@
 		F0F84C962CB09DDB00E82C66 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F84C952CB09DDB00E82C66 /* MainTabView.swift */; };
 		F0F84C982CB09E9B00E82C66 /* AirplanesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F84C972CB09E9B00E82C66 /* AirplanesView.swift */; };
 		F0F84C9A2CB0D34D00E82C66 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F84C992CB0D34D00E82C66 /* SplashScreenView.swift */; };
+		F0F84C9C2CB17AD900E82C66 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F84C9B2CB17AD900E82C66 /* CardData.swift */; };
+		F0F84C9E2CB193FE00E82C66 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F84C9D2CB193FE00E82C66 /* SettingsView.swift */; };
+		F0F84CA12CB195EF00E82C66 /* FirstInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F84CA02CB195EF00E82C66 /* FirstInfoView.swift */; };
+		F0F84CA32CB195FB00E82C66 /* SecondInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F84CA22CB195FB00E82C66 /* SecondInfoView.swift */; };
+		F0F84CA52CB1969700E82C66 /* ManagerInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F84CA42CB1969700E82C66 /* ManagerInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F0F84C792CB090D100E82C66 /* Way Airlines app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Way Airlines app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0F84C7C2CB090D100E82C66 /* Way_Airlines_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Way_Airlines_appApp.swift; sourceTree = "<group>"; };
-		F0F84C7E2CB090D100E82C66 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F0F84C802CB090D300E82C66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0F84C832CB090D300E82C66 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F0F84C8D2CB0927600E82C66 /* Flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
@@ -33,6 +36,11 @@
 		F0F84C952CB09DDB00E82C66 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		F0F84C972CB09E9B00E82C66 /* AirplanesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirplanesView.swift; sourceTree = "<group>"; };
 		F0F84C992CB0D34D00E82C66 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		F0F84C9B2CB17AD900E82C66 /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
+		F0F84C9D2CB193FE00E82C66 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F0F84CA02CB195EF00E82C66 /* FirstInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstInfoView.swift; sourceTree = "<group>"; };
+		F0F84CA22CB195FB00E82C66 /* SecondInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondInfoView.swift; sourceTree = "<group>"; };
+		F0F84CA42CB1969700E82C66 /* ManagerInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +77,6 @@
 				F0F84C8B2CB0922A00E82C66 /* View */,
 				F0F84C8A2CB0922300E82C66 /* Model */,
 				F0F84C7C2CB090D100E82C66 /* Way_Airlines_appApp.swift */,
-				F0F84C7E2CB090D100E82C66 /* ContentView.swift */,
 				F0F84C802CB090D300E82C66 /* Assets.xcassets */,
 				F0F84C822CB090D300E82C66 /* Preview Content */,
 			);
@@ -89,6 +96,7 @@
 			children = (
 				F0F84C8D2CB0927600E82C66 /* Flight.swift */,
 				F0F84C8F2CB093CD00E82C66 /* JsonData.swift */,
+				F0F84C9B2CB17AD900E82C66 /* CardData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -100,6 +108,10 @@
 				F0F84C952CB09DDB00E82C66 /* MainTabView.swift */,
 				F0F84C972CB09E9B00E82C66 /* AirplanesView.swift */,
 				F0F84C992CB0D34D00E82C66 /* SplashScreenView.swift */,
+				F0F84C9D2CB193FE00E82C66 /* SettingsView.swift */,
+				F0F84CA02CB195EF00E82C66 /* FirstInfoView.swift */,
+				F0F84CA22CB195FB00E82C66 /* SecondInfoView.swift */,
+				F0F84CA42CB1969700E82C66 /* ManagerInfoView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -185,12 +197,16 @@
 				F0F84C942CB098F900E82C66 /* FlightViewModel.swift in Sources */,
 				F0F84C982CB09E9B00E82C66 /* AirplanesView.swift in Sources */,
 				F0F84C9A2CB0D34D00E82C66 /* SplashScreenView.swift in Sources */,
+				F0F84C9C2CB17AD900E82C66 /* CardData.swift in Sources */,
 				F0F84C8E2CB0927600E82C66 /* Flight.swift in Sources */,
 				F0F84C902CB093CD00E82C66 /* JsonData.swift in Sources */,
+				F0F84CA52CB1969700E82C66 /* ManagerInfoView.swift in Sources */,
 				F0F84C922CB0969000E82C66 /* HomeView.swift in Sources */,
+				F0F84CA32CB195FB00E82C66 /* SecondInfoView.swift in Sources */,
 				F0F84C962CB09DDB00E82C66 /* MainTabView.swift in Sources */,
-				F0F84C7F2CB090D100E82C66 /* ContentView.swift in Sources */,
+				F0F84CA12CB195EF00E82C66 /* FirstInfoView.swift in Sources */,
 				F0F84C7D2CB090D100E82C66 /* Way_Airlines_appApp.swift in Sources */,
+				F0F84C9E2CB193FE00E82C66 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
