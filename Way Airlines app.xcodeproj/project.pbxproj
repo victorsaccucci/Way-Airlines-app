@@ -11,6 +11,13 @@
 		F0F84C7F2CB090D100E82C66 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F84C7E2CB090D100E82C66 /* ContentView.swift */; };
 		F0F84C812CB090D300E82C66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0F84C802CB090D300E82C66 /* Assets.xcassets */; };
 		F0F84C842CB090D300E82C66 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0F84C832CB090D300E82C66 /* Preview Assets.xcassets */; };
+		F0F84C8E2CB0927600E82C66 /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F84C8D2CB0927600E82C66 /* Flight.swift */; };
+		F0F84C902CB093CD00E82C66 /* JsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F84C8F2CB093CD00E82C66 /* JsonData.swift */; };
+		F0F84C922CB0969000E82C66 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F84C912CB0969000E82C66 /* HomeView.swift */; };
+		F0F84C942CB098F900E82C66 /* FlightViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F84C932CB098F900E82C66 /* FlightViewModel.swift */; };
+		F0F84C962CB09DDB00E82C66 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F84C952CB09DDB00E82C66 /* MainTabView.swift */; };
+		F0F84C982CB09E9B00E82C66 /* AirplanesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F84C972CB09E9B00E82C66 /* AirplanesView.swift */; };
+		F0F84C9A2CB0D34D00E82C66 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F84C992CB0D34D00E82C66 /* SplashScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		F0F84C7E2CB090D100E82C66 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F0F84C802CB090D300E82C66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0F84C832CB090D300E82C66 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F0F84C8D2CB0927600E82C66 /* Flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
+		F0F84C8F2CB093CD00E82C66 /* JsonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonData.swift; sourceTree = "<group>"; };
+		F0F84C912CB0969000E82C66 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F0F84C932CB098F900E82C66 /* FlightViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightViewModel.swift; sourceTree = "<group>"; };
+		F0F84C952CB09DDB00E82C66 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		F0F84C972CB09E9B00E82C66 /* AirplanesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirplanesView.swift; sourceTree = "<group>"; };
+		F0F84C992CB0D34D00E82C66 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +65,9 @@
 		F0F84C7B2CB090D100E82C66 /* Way Airlines app */ = {
 			isa = PBXGroup;
 			children = (
+				F0F84C8C2CB0923300E82C66 /* ViewModel */,
+				F0F84C8B2CB0922A00E82C66 /* View */,
+				F0F84C8A2CB0922300E82C66 /* Model */,
 				F0F84C7C2CB090D100E82C66 /* Way_Airlines_appApp.swift */,
 				F0F84C7E2CB090D100E82C66 /* ContentView.swift */,
 				F0F84C802CB090D300E82C66 /* Assets.xcassets */,
@@ -65,6 +82,34 @@
 				F0F84C832CB090D300E82C66 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F0F84C8A2CB0922300E82C66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F0F84C8D2CB0927600E82C66 /* Flight.swift */,
+				F0F84C8F2CB093CD00E82C66 /* JsonData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F0F84C8B2CB0922A00E82C66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F0F84C912CB0969000E82C66 /* HomeView.swift */,
+				F0F84C952CB09DDB00E82C66 /* MainTabView.swift */,
+				F0F84C972CB09E9B00E82C66 /* AirplanesView.swift */,
+				F0F84C992CB0D34D00E82C66 /* SplashScreenView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F0F84C8C2CB0923300E82C66 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F0F84C932CB098F900E82C66 /* FlightViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +182,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0F84C942CB098F900E82C66 /* FlightViewModel.swift in Sources */,
+				F0F84C982CB09E9B00E82C66 /* AirplanesView.swift in Sources */,
+				F0F84C9A2CB0D34D00E82C66 /* SplashScreenView.swift in Sources */,
+				F0F84C8E2CB0927600E82C66 /* Flight.swift in Sources */,
+				F0F84C902CB093CD00E82C66 /* JsonData.swift in Sources */,
+				F0F84C922CB0969000E82C66 /* HomeView.swift in Sources */,
+				F0F84C962CB09DDB00E82C66 /* MainTabView.swift in Sources */,
 				F0F84C7F2CB090D100E82C66 /* ContentView.swift in Sources */,
 				F0F84C7D2CB090D100E82C66 /* Way_Airlines_appApp.swift in Sources */,
 			);
