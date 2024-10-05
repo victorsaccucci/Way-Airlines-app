@@ -52,7 +52,7 @@ Com o aplicativo, é possível:
 
 Para organizar e dividir as tarefas durante o desenvolvimento deste projeto, utilizei o Trello para separa tarefas.
 
-<img width="864" alt="trello" src="https://github.com/user-attachments/assets/fbc0a906-dc08-4c0e-b21a-9baa3e0887fb">
+<img width="864" alt="trello" src="https://github.com/user-attachments/assets/1f765f4c-e72e-455c-acf2-afc3cfc7f616">
 
 ## Observações
 
